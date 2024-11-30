@@ -2,7 +2,7 @@ import localFont from "next/font/local";
 import "./globals.css";
 import Image from "next/image";
 import { FaUser, FaShoppingCart, FaCcVisa, FaCcMastercard, FaCcPaypal, FaApple } from "react-icons/fa";
-
+import Link from 'next/link'; // Import the Next.js Link component
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
   variable: "--font-geist-sans",
@@ -36,9 +36,9 @@ export default function RootLayout({ children }) {
 
             {/* Navigation */}
             <nav className="hidden md:flex space-x-8 text-gray-800">
-              <a href="/" className="hover:text-gray-600 transition duration-300 text-lg font-medium">
+              <Link href="/" className="hover:text-gray-600 transition duration-300 text-lg font-medium">
                 Home
-              </a>
+              </Link>
               <a href="#" className="hover:text-gray-600 transition duration-300 text-lg font-medium">
                 Shop
               </a>
@@ -70,9 +70,9 @@ export default function RootLayout({ children }) {
               </div>
 
               {/* Login Icon */}
-              <a href="/Login" className="text-gray-600 hover:text-gray-600 transition duration-300">
+              <Link href="/Login" className="text-gray-600 hover:text-gray-600 transition duration-300">
                 <FaUser />
-              </a>
+              </Link>
 
               {/* Cart Icon */}
               <a href="#" className="text-gray-600 hover:text-gray-600 transition duration-300">

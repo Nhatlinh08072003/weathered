@@ -1,4 +1,5 @@
 import React from "react";
+import Link from 'next/link'; // Import the Next.js Link component
 
 export default function Login() {
   return (
@@ -75,9 +76,9 @@ export default function Login() {
         {/* Sign Up Link */}
         <p className="text-center text-sm text-gray-600 mt-6">
           Don't have an account?{" "}
-          <a href="#" className="text-indigo-600 hover:underline">
+          <Link href="/Register" className="text-indigo-600 hover:underline">
             Sign up
-          </a>
+          </Link>
         </p>
       </div>
     </div>
