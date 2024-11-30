@@ -44,9 +44,9 @@ export default function Login() {
               />
               <span className="ml-2">Remember me</span>
             </label>
-            <a href="#" className="text-sm text-indigo-600 hover:underline">
+            <Link href="/ForgotPassword" className="text-sm text-indigo-600 hover:underline">
               Forgot password?
-            </a>
+            </Link>
           </div>
 
           {/* Submit Button */}
