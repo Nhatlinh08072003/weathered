@@ -70,7 +70,7 @@ export default function RootLayout({ children }) {
               </div>
 
               {/* Login Icon */}
-              <Link href="/Login" className="text-gray-600 hover:text-gray-600 transition duration-300">
+              <Link href="/Account/Login" className="text-gray-600 hover:text-gray-600 transition duration-300">
                 <FaUser />
               </Link>
 

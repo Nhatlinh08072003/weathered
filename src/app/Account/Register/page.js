@@ -142,7 +142,7 @@ export default function SignupForm() {
         <div className="mt-4 text-center">
           <p className="text-sm text-gray-600 p-2">
             Have an account ? 
-            <Link href="/Login" className="text-blue-500 hover:text-blue-700 p-2">
+            <Link href="/Account/Login" className="text-blue-500 hover:text-blue-700 p-2">
              Login
             </Link>
           </p>

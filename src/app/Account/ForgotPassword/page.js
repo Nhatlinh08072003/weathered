@@ -65,7 +65,7 @@ export default function ForgotPassword() {
 
         {/* Link Quay Lại Đăng Nhập */}
         <div className="mt-6 text-center">
-          <Link href="/Login" className="text-indigo-600 hover:underline">
+          <Link href="/Account/Login" className="text-indigo-600 hover:underline">
             Back to Login
           </Link>
         </div>

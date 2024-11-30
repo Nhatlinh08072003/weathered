@@ -44,7 +44,7 @@ export default function Login() {
               />
               <span className="ml-2">Remember me</span>
             </label>
-            <Link href="/ForgotPassword" className="text-sm text-indigo-600 hover:underline">
+            <Link href="/Account/ForgotPassword" className="text-sm text-indigo-600 hover:underline">
               Forgot password?
             </Link>
           </div>
@@ -76,7 +76,7 @@ export default function Login() {
         {/* Sign Up Link */}
         <p className="text-center text-sm text-gray-600 mt-6">
           Don't have an account?{" "}
-          <Link href="/Register" className="text-indigo-600 hover:underline">
+          <Link href="/Account/Register" className="text-indigo-600 hover:underline">
             Sign up
           </Link>
         </p>
